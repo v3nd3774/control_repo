@@ -13,6 +13,6 @@ node /^web/ {
 node /^db/ {
   include role::db_server
 }
-node /^minetest/ {
+node 'minetest.puppet.vm' {
   include role::minetest_server
 }
