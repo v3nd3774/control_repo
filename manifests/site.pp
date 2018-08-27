@@ -14,5 +14,5 @@ node /^db/ {
   include role::db_server
 }
 node /^minetest/ {
-  include role::minetest_server
+  include role::db_server
 }
